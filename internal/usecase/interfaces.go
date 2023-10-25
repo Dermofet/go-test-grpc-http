@@ -15,3 +15,4 @@ type UserInteractor interface {
 	Update(ctx context.Context, id *entity.UserID, user *entity.UserCreate) (*entity.User, error)
 	Delete(ctx context.Context, id *entity.UserID) error
 }
+ 
